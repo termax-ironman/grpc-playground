@@ -1,6 +1,9 @@
 syntax="proto3";
 
-option java_package = "com.udemy.service";
+package sec01;
+
+option java_package = "com.udemy.service.sec01";
+
 
 message Person {
   string name = 1;
