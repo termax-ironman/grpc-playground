@@ -1,7 +1,6 @@
 package com.udemy.sec03;
 
 import com.udemy.service.sec03.Person;
-import io.grpc.internal.LogExceptionRunnable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
