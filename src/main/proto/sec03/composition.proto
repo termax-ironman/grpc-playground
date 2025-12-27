@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package sec03;
+
+option  java_multiple_files = true;
+option java_package = "com.udemy.sec03";
+
+message address {
+  string street = 1;
+  string city = 2;
+  string state = 3;
+}
+
+message student {
+  int32 id = 1;
+  string name = 2;
+  address addr = 3;
+}
+
+message school {
+  int32 id = 1;
+  string name = 2;
+  address addr = 3;
+}
